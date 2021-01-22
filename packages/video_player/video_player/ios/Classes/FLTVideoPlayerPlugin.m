@@ -299,7 +299,7 @@ static inline CGFloat radiansToDegrees(CGFloat radians) {
   } else {
     [_player pause];
   }
-  _displayLink.paused = !_isPlaying;
+  _displayLink.paused = false;
 }
 
 - (void)sendInitialized {
